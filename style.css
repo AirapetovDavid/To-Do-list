@@ -1,0 +1,114 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+.addCase {
+  width: 900px;
+  height: 35px;
+  display: flex;
+  margin: 15px;
+  margin-bottom: 30px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4D6A6D;
+}
+.nameCase {
+  width: 40%;
+}
+.dateCase {
+  width: 20%;
+}
+.addButton {
+  border: white;
+  width: 10%;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #EAE0CC 0%, #C9ADA1 51%, #EAE0CC 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+}
+.addButton:hover {
+  background-position: right center;
+}
+.resultArr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.toDoWrapper {
+  margin: 5px;
+}
+.deleteButton , .editButton , .acceptButton , .denyButton ,.editInput , .toDoNewSpan {
+margin: 1px;
+}
+.toDo, .toDoNewSpan {
+  font-size: medium;
+  color:#c9ada1;
+  margin-right: 5px;
+}
+.toDoDate {
+  font-size: small;
+  color: #A0A083;
+  margin-right: 5px;
+}
+.toDoFact {
+  font-size: small;
+  margin-right: 8px;
+  color: #798478;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4D6A6D;
+  width: 125px;
+}
+.deleteButton {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #4D6A6D;
+  background: #EAE0CC;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+  border: white;
+}
+.deleteButton:hover {
+  background: #4D6A6D;
+  box-shadow: 0 15px 20px rgba(0,0,0,.1);
+  color: #EAE0CC;
+  transform: translateY(-7px);
+}
+.editButton, .acceptButton, .denyButton {
+  border: white;
+  background-color: white;
+  font-size: large;
+}
+.editButton:hover, .acceptButton:hover, .denyButton:hover {
+  background-color: #EAE0CC;
+  transition: 0.5s;
+}

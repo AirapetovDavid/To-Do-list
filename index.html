@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project1</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script defer type="module" src="index.mjs"></script>
+</head>
+<body>
+  <header>
+    <div class="addCase">
+      <h3 class="text">Create To-Do:</h3>
+      <input id="name" type="text" class="nameCase">
+      <input id="date" type="date" class="dateCase" value="2000-01-01" min="2000-01-01" max="2100-12-31">
+      <button class="addButton" id="button">add</button>
+    </div>
+  </header>
+  <h1 class="logo">To-Do List</h1>
+  <div class="resultArr" id="result"> </div>
+</body>
+</html>
